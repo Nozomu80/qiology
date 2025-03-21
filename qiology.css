@@ -1,0 +1,88 @@
+body {
+  -webkit-print-color-adjust: exact;
+}
+
+.tableYear {
+  border-collapse: collapse;
+  border: 1px solid;
+  vertical-align: top;
+}
+
+.tableMonth {
+  border-collapse: collapse;
+  border: 1px solid;
+  vertical-align: top;
+}
+
+.tableWeek {
+  border-collapse: collapse;
+  border: 1px solid;
+  vertical-align: top;
+}
+
+td.tdWeek {
+  border: 1px solid;
+}
+th.thWeekSun {
+  color: red;
+}
+th.thWeekSat {
+  color: blue;
+}
+.tableDayBoard {
+  border-collapse: collapse;
+  border: 0;
+}
+
+.dayBoardDetail {
+  margin-left: 10px;
+  text-indent: -10px;
+}
+
+.tableBoard {
+  border-collapse: collapse;
+  border: 0;
+  table-layout: fixed;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+td.tdDetail {
+  font-size: 10pt;
+}
+
+td.tdBoardOK {
+  border: 1px solid;
+}
+td.tdBoardNG {
+  border: 1px solid;
+  background-color: gray !important;
+}
+
+.boardTitle {
+  font-size: 16pt;
+}
+
+
+.tableAllKyuki {
+  border-collapse: collapse;
+  border: 1px solid;
+  vertical-align: top;
+}
+
+.divDetailNini {
+  margin-left: 10px;
+  text-indent: -10px;
+  color: red;
+}
+.divDetail40 {
+  margin-left: 10px;
+  text-indent: -10px;
+  color: blue;
+}
+.divDetail4 {
+  margin-left: 10px;
+  text-indent: -10px;
+  color: black;
+}
