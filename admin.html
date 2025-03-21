@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Qiology</title>
+    <script src="./lib/jquery/jquery-3.3.1.js"></script>
+    <script src="./lib/jquery-ui/jquery-ui.js"></script>
+    <script src="./dist/main.js"></script>
+    <link rel="stylesheet" type="text/css" href="./qiology.css">
+  </head>
+
+<body>
+
+  <h1>管理者モード 星風アカデミー 祐気採り</h1>
+  <hr>
+  <select id="selectYear"></select>
+
+  <select id="selectMonth">
+    <option value="2">2月節</option>
+    <option value="3">3月節</option>
+    <option value="4">4月節</option>
+    <option value="5">5月節</option>
+    <option value="6">6月節</option>
+    <option value="7">7月節</option>
+    <option value="8">8月節</option>
+    <option value="9">9月節</option>
+    <option value="10">10月節</option>
+    <option value="11">11月節</option>
+    <option value="12">12月節</option>
+    <option value="1">1月節</option>
+  </select>
+
+  <select id="selectKyuki">
+    <option value="1">一白水性</option>
+    <option value="2">二黒土性</option>
+    <option value="3">三碧木性</option>
+    <option value="4">四緑木性</option>
+    <option value="5">五黄土性</option>
+    <option value="6">六白金性</option>
+    <option value="7">七赤金性</option>
+    <option value="8">八白土性</option>
+    <option value="9">九紫火性</option>
+  </select>
+
+  <br>
+  <input type="checkbox" id="chkTimeExclusion" value="1" checked="checked">
+  <label for="chkTimeExclusion">23時～5時の祐気採り時間を表示しない</label>
+
+  <div id="divTitle"></div>
+
+  <table>
+    <tr>
+      <td class="tableYear">
+        <div id="divYearBoardTitle"></div>
+        <div id="divYearBoard"></div>
+      </td>
+      <td>
+      </td>
+      <td class="tableMonth">
+          <div id="divMonthBoardTitle"></div>
+       <div id="divMonthBoard"></div>
+      </td>
+    </tr>
+  </table>
+
+  <div id="divDayBoardTitle"></div>
+  <div id="divDayBoard"></div>
+</body>
+
+</html>
